@@ -1,10 +1,9 @@
-## Transferência de Arquivos via Cabo USB – dArkOS re (R36S)
+## Transferência de Arquivos via Cabo USB
 
-Este guia explica como ativar e usar a transferência de arquivos via cabo USB no **dArkOS re** para R36S, permitindo conectar o console ao PC via SFTP (WinSCP, FileZilla, etc.).
+Este guia explica como ativar e usar a transferência de arquivos via cabo USB no R36S, permitindo conectar o console ao PC via SFTP (WinSCP, FileZilla, etc.).
 
 ### Requisitos
 
-- R36S com **dArkOS re** instalado.
 - Cabo USB (o mesmo usado para carregar o console).
 - PC com Windows (ou outro sistema com cliente SFTP).
 - Programa de transferência: **WinSCP**, **FileZilla** ou similar.
@@ -14,9 +13,9 @@ Este guia explica como ativar e usar a transferência de arquivos via cabo USB n
 ### Passo 1 – Acessar o USB Manager no dArkOS re
 
 1. No R36S, abra o **EmulationStation**.
-2. Vá até **Network Settings** (ou **Configurações de Rede**).
-3. Procure a opção **USB Manager** (ou **USB Transfer**).
-4. Execute a script do **USB Manager**.
+2. Vá até **Opção**
+3. Procure a pasta **Tools**
+5. Execute a script do **USB Manager**.
 
 ---
 
