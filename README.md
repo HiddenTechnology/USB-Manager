@@ -10,7 +10,7 @@ Este guia explica como ativar e usar a transferência de arquivos e internet via
 
 ---
 
-### Passo 1 – Acessar o USB Manager no dArkOS re
+### Passo 1 – Acessar o USB Manager
 
 1. No R36S, abra o **EmulationStation**.
 2. Vá até **Opção**
@@ -81,9 +81,9 @@ No menu do **USB Manager**:
    sftp ark@192.168.2.2
    ```
 -  **Senha**:
-  ```
-  ark
-  ```
+   ```
+   ark
+   ```
 ---
 
 3. **Via FileZilla:**
@@ -97,7 +97,7 @@ Clique em **Conectar**.
 
 ---
 
-### Passo 6 – Conectar via WinSCP (ou FileZilla)
+### Passo 6 (Windows) - Conectar via WinSCP
 
 1. Abra o **WinSCP** (ou outro cliente SFTP).
 2. Crie uma nova conexão com os seguintes dados:
