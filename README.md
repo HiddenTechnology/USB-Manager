@@ -83,6 +83,7 @@ No menu do **USB Manager**:
 -  **Senha**:
   ```
   ark
+  ```
 ---
 
 3. **Via FileZilla:**
