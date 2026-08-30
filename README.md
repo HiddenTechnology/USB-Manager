@@ -1,4 +1,4 @@
-## Transferência de Arquivos ou internet via Cabo USB
+## Transferência de Arquivos ou Internet via Cabo USB
 
 Este guia explica como ativar e usar a transferência de arquivos e internet via cabo USB no R36S, permitindo conectar o console ao PC (WinSCP, FileZilla, etc.).
 
@@ -123,6 +123,9 @@ Clique em **Conectar**.
 ### Passo 8 (Linux) - Compartilhando internet
 
 1. Abra o terminal e execute:
+   ```
+   sudo sysctl -w net.ipv4.ip_forward=1
+   ```
    ```
    sudo iptables -t nat -A POSTROUTING -o <interface_internet> -j MASQUERADE
    ```
