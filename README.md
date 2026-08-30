@@ -141,9 +141,7 @@ Clique em **Conectar**.
    ```
    sudo iptables -A FORWARD -i <interface_usb> -o <interface_internet> -j ACCEPT
    ```
-3. Após rodar os comandos acima, agora só ativar a internet na script do R36S que já vai funcionar a internet.
-
-**OBS**: Antes de tranferir ou ativar a internet usando Linux, precisa configurar primeiro IP na guia **Configurar a conexão**
+3. Basta desativar a transferência e ativar a internet e já vai funcionar, pois a configuração de IP já foi feita anteriormente no guia Configurar a conexão
 
 ### Passo 10 – Desativar a Transferência ou Internet via USB
 
