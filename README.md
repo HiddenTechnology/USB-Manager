@@ -80,12 +80,12 @@ No menu do **USB Manager**:
    ```
    sftp ark@192.168.2.2
    ```
-- **Senha**:
+-  **Senha**:
   ```
   ark
 ---
 
-Via FileZilla:
+3. **Via FileZilla:**
 
   - **Host:** `192.168.2.2`
   - **Porta:** `22`
