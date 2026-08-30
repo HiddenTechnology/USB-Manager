@@ -111,4 +111,3 @@ No **USB Manager** do R36S:
     <td align="center">✅ Testado</td>
   </tr>
 </table>
-```
