@@ -81,6 +81,7 @@ No menu do **USB Manager**:
    ```bash
 sftp ark@192.168.2.2
    ```
+   ```
 Senha: ark
 
 ---
