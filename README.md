@@ -96,3 +96,17 @@ No **USB Manager** do R36S:
 - No PC, abra o terminal (cmd) e teste:
   ```bash
   ping 192.168.2.2
+```
+table>
+  <tr>
+    <th colspan="2" style="text-align: center;">R36S</th>
+  </tr>
+  <tr>
+    <td align="left"><b>Sistema</b></td>
+    <td align="center"><b>Status</b></td>
+  </tr>
+  <tr>
+    <td>DarkOS Re</td>
+    <td align="center">✅ Testado</td>
+  </tr>
+</table>
