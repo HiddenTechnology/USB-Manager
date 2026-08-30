@@ -96,7 +96,6 @@ No **USB Manager** do R36S:
 - No PC, abra o terminal (cmd) e teste:
   ```bash
   ping 192.168.2.2
-```
 ---
 
 <table>
