@@ -1,6 +1,6 @@
 ## Transferência de Arquivos via Cabo USB
 
-Este guia explica como ativar e usar a transferência de arquivos via cabo USB no R36S, permitindo conectar o console ao PC via SFTP (WinSCP, FileZilla, etc.).
+Este guia explica como ativar e usar a transferência de arquivos e internet via cabo USB no R36S, permitindo conectar o console ao PC (WinSCP, FileZilla, etc.).
 
 ### Requisitos
 
@@ -66,6 +66,7 @@ No menu do **USB Manager**:
 > 2. Execute:
 >    ```bash
 >    sudo ip addr add 192.168.2.1/24 dev <nome_da_interface>
+>    ```
 >    ```
 >    sudo ip link set <nome_da_interface> up
 >    ```
