@@ -35,7 +35,7 @@ No menu do **USB Manager**:
 
 ---
 
-### Passo 3 – Configurar a Conexão no PC (Windows)
+### Passo 3 (Windows) - Configurar a Conexão
 
 1. Conecte o R36S ao PC via cabo USB.
 2. No Windows, abra **Conexões de Rede**:
@@ -54,7 +54,48 @@ No menu do **USB Manager**:
 
 ---
 
-### Passo 4 – Conectar via WinSCP (ou FileZilla)
+### Passo 4 (Linux) - Configurar a Conexão
+
+1. Conecte o R36S ao PC via cabo USB.
+2. No Linux, abra as **Configurações de Rede** ou use o terminal.
+3. O sistema deve detectar automaticamente uma nova interface de rede (geralmente `enp0s20f0u1`, `usb0`, `eth1` ou similar).
+4. A interface deve receber automaticamente o IP `192.168.2.1` via DHCP.
+
+> **Se não receber IP automático (configuração manual):**
+> 1. Abra o terminal.
+> 2. Execute:
+>    ```bash
+>    sudo ip addr add 192.168.2.1/24 dev <nome_da_interface>
+>    ```
+>    sudo ip link set <nome_da_interface> up
+>    ```
+>    (Substitua `<nome_da_interface>` pelo nome da interface USB, ex.: `usb0`, `eth1`, etc.)
+
+---
+
+### Passo 5 (Linux) – Conectar via SFTP
+
+1. Abra um terminal ou use um cliente SFTP gráfico (FileZilla, Nautilus, Dolphin, etc.).
+2. **Via terminal (comando sftp):**
+   ```bash
+sftp ark@192.168.2.2
+   ```
+Senha: ark
+
+---
+
+Via FileZilla:
+
+  -**Host:** `192.168.2.2`
+  -**Porta:** `22`
+  -**Usuário:** `ark`
+  -**Senha:** `ark`
+  -**Protocolo:** `SFTP`
+Clique em Conectar.
+
+---
+
+### Passo 6 – Conectar via WinSCP (ou FileZilla)
 
 1. Abra o **WinSCP** (ou outro cliente SFTP).
 2. Crie uma nova conexão com os seguintes dados:
@@ -68,7 +109,7 @@ No menu do **USB Manager**:
 
 ---
 
-### Passo 5 – Transferir Arquivos
+### Passo 7 – Transferir Arquivos
 
 1. No WinSCP, navegue até a pasta desejada no R36S (ex.: `/roms`, `/bios`, `/saves`).
 2. Arraste os arquivos entre o PC e o R36S.
@@ -76,7 +117,7 @@ No menu do **USB Manager**:
 
 ---
 
-### Passo 6 – Desativar a Transferência via USB
+### Passo 8 – Desativar a Transferência via USB
 
 No **USB Manager** do R36S:
 
