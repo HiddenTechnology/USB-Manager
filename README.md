@@ -129,6 +129,9 @@ Clique em **Conectar**.
    ```
    sudo iptables -t nat -A POSTROUTING -o <interface_internet> -j MASQUERADE
    ```
+   ```
+   sudo iptables -A FORWARD -i <interface_internet> -o <interface_usb> -m state --state RELATED,ESTABLISHED -j ACCEPT
+   ```
 
 ### Passo 9 (Windows) - Compartilhando internet
 
