@@ -122,7 +122,9 @@ Clique em **Conectar**.
 
 ### Passo 8 (Linux) - Compartilhando internet
 
-1. Abra o terminal e execute:
+1. Coloque o R36S no cabo usb
+
+2. Abra o terminal e execute:
    ```
    sudo sysctl -w net.ipv4.ip_forward=1
    ```
@@ -135,6 +137,7 @@ Clique em **Conectar**.
    ```
    sudo iptables -A FORWARD -i <interface_usb> -o <interface_internet> -j ACCEPT
    ```
+3. Após rodar os comandos acima, agora só ativar a internet na script do R36S que já vai funcionar a internet.
 
 ### Passo 9 (Windows) - Compartilhando internet
 
