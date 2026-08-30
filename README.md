@@ -97,7 +97,7 @@ No **USB Manager** do R36S:
   ```bash
   ping 192.168.2.2
 ```
-table>
+<table>
   <tr>
     <th colspan="2" style="text-align: center;">R36S</th>
   </tr>
