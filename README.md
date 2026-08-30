@@ -122,7 +122,9 @@ Clique em **Conectar**.
 
 ### Passo 8 (Windows) - Compartilhando internet
 
-1. Basta desativar a transferência e ativar a internet e já vai funcionar, pois a configuração de IP já foi feita anteriormente na guia **Configurar a conexão**
+1. Coloque o R36S no cabo usb
+
+2. Se já tiver feito a configuração na guia **Configurar a conexão**, basta ativar a internet no console e já vai funcionar.
 
 ### Passo 9 (Linux) - Compartilhando internet
 
@@ -141,7 +143,8 @@ Clique em **Conectar**.
    ```
    sudo iptables -A FORWARD -i <interface_usb> -o <interface_internet> -j ACCEPT
    ```
-3. Basta desativar a transferência e ativar a internet e já vai funcionar, pois a configuração de IP já foi feita anteriormente no guia Configurar a conexão
+
+4. Após rodar os comandos acima, se já tiver feito a configuração na guia **Configurar a conexão**, basta ativar a internet no console e já vai funcionar.
 
 ### Passo 10 – Desativar a Transferência ou Internet via USB
 
