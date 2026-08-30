@@ -78,10 +78,10 @@ No menu do **USB Manager**:
 
 1. Abra um terminal ou use um cliente SFTP gráfico (FileZilla, Nautilus, Dolphin, etc.).
 2. **Via terminal (comando sftp):**
-   ```bash
-sftp ark@192.168.2.2
    ```
+   sftp ark@192.168.2.2
    ```
+   ---
 Senha: ark
 
 ---
