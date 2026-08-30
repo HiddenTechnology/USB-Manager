@@ -1,4 +1,4 @@
-## Transferência de Arquivos via Cabo USB
+## Transferência de Arquivos ou internet via Cabo USB
 
 Este guia explica como ativar e usar a transferência de arquivos e internet via cabo USB no R36S, permitindo conectar o console ao PC (WinSCP, FileZilla, etc.).
 
@@ -53,7 +53,22 @@ No menu do **USB Manager**:
 
 ---
 
-### Passo 4 (Linux) - Configurar a Conexão
+### Passo 4 (Windows) - Conectar via WinSCP
+
+1. Abra o **WinSCP** (ou outro cliente SFTP).
+2. Crie uma nova conexão com os seguintes dados:
+   - **Host:** `192.168.2.2`
+   - **Porta:** `22`
+   - **Usuário:** `ark`
+   - **Senha:** `ark`
+   - **Protocolo:** `SFTP`
+3. Clique em **Conectar** (ou **Login**).
+4. Se aparecer um aviso de chave do host, clique em **Aceitar** ou **Sim**.
+
+---
+
+
+### Passo 5 (Linux) - Configurar a Conexão
 
 1. Conecte o R36S ao PC via cabo USB.
 2. No Linux, abra as **Configurações de Rede** ou use o terminal.
@@ -73,7 +88,7 @@ No menu do **USB Manager**:
 
 ---
 
-### Passo 5 (Linux) – Conectar via SFTP
+### Passo 6 (Linux) – Conectar via SFTP
 
 1. Abra um terminal ou use um cliente SFTP gráfico (FileZilla, Nautilus, Dolphin, etc.).
 2. **Via terminal (comando sftp):**
@@ -97,20 +112,6 @@ Clique em **Conectar**.
 
 ---
 
-### Passo 6 (Windows) - Conectar via WinSCP
-
-1. Abra o **WinSCP** (ou outro cliente SFTP).
-2. Crie uma nova conexão com os seguintes dados:
-   - **Host:** `192.168.2.2`
-   - **Porta:** `22`
-   - **Usuário:** `ark`
-   - **Senha:** `ark`
-   - **Protocolo:** `SFTP`
-3. Clique em **Conectar** (ou **Login**).
-4. Se aparecer um aviso de chave do host, clique em **Aceitar** ou **Sim**.
-
----
-
 ### Passo 7 – Transferir Arquivos
 
 1. No WinSCP, navegue até a pasta desejada no R36S (ex.: `/roms`, `/bios`, `/saves`).
@@ -122,6 +123,8 @@ Clique em **Conectar**.
 ### Passo 8 (Linux) - Compartilhando internet
 
 ### Passo 9 (Windows) - Compartilhando internet
+
+1. Basta desativar a transferência e ativar a internet e já vai funcionar, pois a configuração de IP já foi feita anteriormente na guia **Configurar conexão**
 
 ### Passo 10 – Desativar a Transferência ou internet via USB
 
