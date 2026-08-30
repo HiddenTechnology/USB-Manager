@@ -132,6 +132,9 @@ Clique em **Conectar**.
    ```
    sudo iptables -A FORWARD -i <interface_internet> -o <interface_usb> -m state --state RELATED,ESTABLISHED -j ACCEPT
    ```
+   ```
+   sudo iptables -A FORWARD -i <interface_usb> -o <interface_internet> -j ACCEPT
+   ```
 
 ### Passo 9 (Windows) - Compartilhando internet
 
