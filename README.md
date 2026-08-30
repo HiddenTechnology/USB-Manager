@@ -122,18 +122,23 @@ Clique em **Conectar**.
 
 ### Passo 8 (Linux) - Compartilhando internet
 
+1. Abra o terminal e execute:
+   ```
+   sudo iptables -t nat -A POSTROUTING -o <interface_internet> -j MASQUERADE
+   ```
+
 ### Passo 9 (Windows) - Compartilhando internet
 
-1. Basta desativar a transferência e ativar a internet e já vai funcionar, pois a configuração de IP já foi feita anteriormente na guia **Configurar conexão**
+1. Basta desativar a transferência e ativar a internet e já vai funcionar, pois a configuração de IP já foi feita anteriormente na guia **Configurar a conexão**
 
-### Passo 10 – Desativar a Transferência ou internet via USB
+### Passo 10 – Desativar a Transferência ou Internet via USB
 
 No **USB Manager** do R36S:
 
 1. Selecione a opção:  
    **2 – Desativar transferencia ou internet**
 2. Aguarde a mensagem:  
-   `Transferencia ou internet desativada`
+   `Transferencia ou Internet desativada`
 3. Você pode desconectar o cabo USB do PC.
 
 ---
@@ -142,7 +147,7 @@ No **USB Manager** do R36S:
 
 **O WinSCP não conecta:**
 
-- Verifique se o status no **USB Manager** mostra **Transferencia ativa**.
+- Verifique se o status no **USB Manager** mostra **Transferencia ou Internet ativa**.
 - No PC, abra o terminal (cmd) e teste:
   ```bash
   ping 192.168.2.2
