@@ -15,7 +15,7 @@ Este guia explica como ativar e usar a transferência de arquivos via cabo USB n
 1. No R36S, abra o **EmulationStation**.
 2. Vá até **Opção**
 3. Procure a pasta **Tools**
-5. Execute a script do **USB Manager**.
+4. Execute a script do **USB Manager**.
 
 ---
 
