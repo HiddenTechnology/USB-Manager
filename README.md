@@ -119,14 +119,18 @@ Clique em **Conectar**.
 
 ---
 
-### Passo 8 – Desativar a Transferência via USB
+### Passo 8 (Linux) - Compartilhando internet
+
+### Passo 9 (Windows) - Compartilhando internet
+
+### Passo 10 – Desativar a Transferência ou internet via USB
 
 No **USB Manager** do R36S:
 
 1. Selecione a opção:  
-   **2 – Desativar transferencia**
+   **2 – Desativar transferencia ou internet**
 2. Aguarde a mensagem:  
-   `Transferencia desativada`
+   `Transferencia ou internet desativada`
 3. Você pode desconectar o cabo USB do PC.
 
 ---
