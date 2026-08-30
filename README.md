@@ -120,7 +120,11 @@ Clique em **Conectar**.
 
 ---
 
-### Passo 8 (Linux) - Compartilhando internet
+### Passo 8 (Windows) - Compartilhando internet
+
+1. Basta desativar a transferência e ativar a internet e já vai funcionar, pois a configuração de IP já foi feita anteriormente na guia **Configurar a conexão**
+
+### Passo 9 (Linux) - Compartilhando internet
 
 1. Coloque o R36S no cabo usb
 
@@ -139,9 +143,7 @@ Clique em **Conectar**.
    ```
 3. Após rodar os comandos acima, agora só ativar a internet na script do R36S que já vai funcionar a internet.
 
-### Passo 9 (Windows) - Compartilhando internet
-
-1. Basta desativar a transferência e ativar a internet e já vai funcionar, pois a configuração de IP já foi feita anteriormente na guia **Configurar a conexão**
+**OBS**: Antes de tranferir ou ativar a internet usando Linux, precisa configurar primeiro IP na guia **Configurar a conexão**
 
 ### Passo 10 – Desativar a Transferência ou Internet via USB
 
