@@ -49,7 +49,6 @@ No menu do **USB Manager**:
 > 3. Marque **Usar o seguinte endereço IP**:
 >    - **Endereço IP:** `192.168.2.1`
 >    - **Máscara de sub-rede:** `255.255.255.0`
->    - **Gateway padrão:** `192.168.2.2`
 > 4. Clique em **OK**.
 
 ---
@@ -81,19 +80,17 @@ No menu do **USB Manager**:
    ```
    sftp ark@192.168.2.2
    ```
-   ---
-Senha: ark
-
+- Senha: ark
 ---
 
 Via FileZilla:
 
-  -**Host:** `192.168.2.2`
-  -**Porta:** `22`
-  -**Usuário:** `ark`
-  -**Senha:** `ark`
-  -**Protocolo:** `SFTP`
-Clique em Conectar.
+  - **Host:** `192.168.2.2`
+  - **Porta:** `22`
+  - **Usuário:** `ark`
+  - **Senha:** `ark`
+  - **Protocolo:** `SFTP`
+Clique em **Conectar**.
 
 ---
 
